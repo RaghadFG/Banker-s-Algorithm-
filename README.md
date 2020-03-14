@@ -1,2 +1,3 @@
-# Banker-s-Algorithm-
-Bankers’s Algorithm is resource allocation and deadlock avoidance algorithm which test all the request made by processes for resources.
+In operating systems, a deadlock occurs when a process or thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource held by another waiting process. If a process is unable to change its state indefinitely because the resources requested by it are being used by another waiting process, then the system is said to be in a deadlock. So, the deadlock avoidance is the request for any resource will be granted if the resulting state of the system doesn't cause deadlock in the system. The state of the system will continuously be checked for safe and unsafe states by using Banker’s Algorithm. 
+ 
+Bankers’s Algorithm is resource allocation and deadlock avoidance algorithm which test all the request made by processes for resources, it checks for the safe state, if after granting request system remains in the safe state it allows the request and if there is no safe state it doesn’t allow the request made by the process.
